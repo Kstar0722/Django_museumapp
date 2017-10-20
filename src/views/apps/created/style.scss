@@ -1,0 +1,76 @@
+.existing-tour {
+	.card {
+	    background-size: cover!important;
+	    background-position: 50%!important;
+	    height: 145px;
+
+	    .card-block {
+	    	padding: 0px;
+	    }
+
+		> * {
+			cursor: pointer; 
+		}
+	}
+
+	p.info { 
+		background: rgba(255,255,255,0.8);
+		width: 100%;
+		padding: 0.5rem 0;
+		margin-bottom: 20px;
+		font-size: 0.75rem;
+	}
+}
+
+.new-tour, .existing-tour {
+	.card {
+	    -webkit-transform: translate3d(0,0,0);
+	    transform: translate3d(0,0,0);
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+		transition: all 0.2s ease;
+		border-radius: 2px;
+		margin-bottom: 0.25rem;
+		
+		svg {
+			display: block;
+		}
+
+		&:hover {
+		    box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
+		    -webkit-transform: translate3d(0,-1px,0);
+		    transform: translate3d(0,-1px,0);
+		}
+
+		.d-flex {
+			flex-direction: column;
+		}
+
+		a, .linker {
+
+			cursor: pointer; 
+		}
+
+		a {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	p.info {
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    text-align: center;
+	    margin-bottom: 0px;
+	}
+
+	.title {
+		text-align: center;
+	}
+}
+
+.justify-content-center {
+	justify-content : center;
+}

@@ -1,0 +1,19 @@
+.general{
+  .general-tab-menu {
+    width: 100%;
+    display: flex;
+
+    .btn {
+      flex: 1;
+      border: 0px;
+      box-shadow: none;
+      border-bottom: 2px solid #ef6d04;
+      cursor: pointer;
+
+      &.active {
+        background: #ef6d04;
+        color: #fff;
+      }
+    }
+  }
+}

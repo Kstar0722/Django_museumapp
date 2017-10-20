@@ -1,0 +1,40 @@
+.build-tours {
+  .audio-build {
+    .audio-body-build {
+      position: relative;
+      width: 100%;
+
+      .flex-row {
+        cursor: pointer;
+
+        img {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+/*
+
+    
+    .card {
+      overflow: hidden;
+      padding: 1rem 0.2rem;
+      overflow: hidden;
+      box-shadow: none;
+      border: 1px solid #ccc;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+
+      p {
+          font-size: 0.75rem;
+      }
+      
+      .card-block{
+          padding: 0.2rem;
+      }
+    }
+*/    
